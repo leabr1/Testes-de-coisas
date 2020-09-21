@@ -5,6 +5,18 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    height: 100%;
+}
 .barra{
-    background-image: linear-gradient(90deg, #f3c17f 15%, #fa920b 70%);
+    background-image: linear-gradient(180deg, #f3c17f 15%, #fa920b 70%);
+    position: fixed;
+    width: 30%;
+    height: 100%;
+}
+.imag{
+    border: 5px solid #ad8754;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
 }
