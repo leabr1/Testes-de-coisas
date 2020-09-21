@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+  <!-- falta dar update no site -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="teste.png" type="image/x-icon"> <!--    Não tenho a menor ideia de como fiz isso funcionar mas ta valendo -->
+    <title>Pizzaria Etec</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="background.png">
+    <div class="navbar">
+        <div class="logo">
+            <h1>Pizzaria Etec Antônio Devisate</h1>
+        </div>
+        <ul class="coisas">
+            <li>
+                <h2><a href="#pizzas">Sabores</a></h2>
+            </li>
+            <li>
+                <h2 class="navegadores"><a href="#pedir">Pedido</a></h2>
+            </li>
+            <li>
+                <h2 class="navegadores"><a href="#contato">Contatos</a></h2>
+            </li>
+        </ul>
+    </div>
+    <div class="corpo">
+        <div class="nome">
+            <h1><i>Cardápio</i></h1>
+        </div>
+        <div class="produtos">
+            <div class="pizzas" id="pizzas">
+                <table>
+                    <tr height="25px">
+                        <!-- apenas para criar um espaco -->
+                    </tr>
+                    <tr>
+                        <td><a href="#pedir"><img
+                                    src="https://i.pinimg.com/564x/ad/73/42/ad73422d060d62fc3b074c098da8c522.jpg"
+                                    class="imagens_pizzas" alt="Não foi"></a></td>
+                        <td class="produto_pizza">
+                            <p class="descricao">Pizza de Mussarela</p>
+                            <p class="descricao">Ingredientes: Mussarela e tomate.</p>
+
+                        </td>
+
+                        <td ><a href="#pedir"> <!-- pizza de 4 queijos -->
+                                <img src="https://i.pinimg.com/564x/22/cb/e1/22cbe188d4944b1cb099e9534c086148.jpg"
+                                class="imagens_pizzas" alt="Não foi"></a></td>
+
+                        <td class="produto_pizza" >
+                            <p class="descricao">Pizza de 4 Queijos</p>
+                            <p class="descricao">Ingredientes: queijo mussarela, parmezão, gorgonzola, provolone, tomate e catupiry</p>
+                        </td>
+                        <td >
+                            <a href="#pedir"><img src="https://i.pinimg.com/564x/74/b9/fa/74b9fac3950d456d486dcaf8c38cb51b.jpg" alt="" class="imagens_pizzas"></a>
+                        </td>
+                        <td class="produto_pizza">
+                            <p class="descricao">Pizza de frango e catupiry</p>
+                            <p class="descricao">Ingredientes: frango, catupiry, salsa e tomate.</p> <!-- ingredientes -->
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td ></td>
+                        <td >
+                            <div class="preco" align="center">
+                                <p>R$: 50,00</p>
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                        <td ></td>
+                        <td >
+                            <div class="preco" align="center">
+                                <p>R$ 48,00</p>
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                        <td ></td>
+                        <td >
+                            <div class="preco" align="center">
+                                <p>R$ 46,00</p> <!-- mudar depois  -->
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                    </tr>
+                    <tr> <!-- pizza e descrição -->
+                        <td ><a href="#pedir"><img src="calabresa.jpg" class="imagens_pizzas" alt="Não foi"></a></td>
+                        <td ><p class="descricao">Pizza de Calabresa</p>
+                        <p class="descricao">Ingredientes: calabresa, cebola, cheiro verde.</p>
+                        </td>
+                        <td ><a href="#pedir"><img class="imagens_pizzas" src="marguerita.jpg" alt=""></a></td>
+                        <td ><p class="descricao">Pizza marguerita</p> <p class="descricao">Ingredientes: mussarela, molho de tomate picado e manjericão.</p></td>
+                        <td >
+                            <a href="#pedir"><img src="https://i.pinimg.com/564x/fe/c2/de/fec2de7c774d56255debe0299dd41836.jpg" alt="" class="imagens_pizzas"></a>
+                        </td>
+                        <td>
+                            <p class="descricao">Pizza Califórnia</p>
+                            <p class="descricao">Ingredientes: queijo, pessêgo, goiaba, figo, abacaxi e figo.</p> <!-- ingredientes -->
+                        </td>
+                        
+                    </tr>
+                    <tr> <!-- preço e hr -->
+                        <td ></td> <!-- não usar -->
+                        <td ><div class="preco">
+                            <p>R$: 64,00</p>
+                        </div>
+                        <hr size="2px" width="50%"></td>
+                        <td ><!-- não usar --></td>
+                        <td >
+                            <div class="preco">
+                                <p>R$: 69,00</p>
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                        <td ></td>
+                        <td > <!-- preço -->
+                            <div class="preco" align="center">
+                                <p>R$: 60,00</p> <!-- mudar depois -->
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                    </tr>
+
+                    <tr>            
+                        <td><a href="#pedir"><img src="https://massaleve.com.br/media/cache/recipes_interna/uploads/images/receitas/05-receita-massa-leve-pizza-de-atum-cebola-e-azeitona.jpg" alt="" class="imagens_pizzas"></a></td>
+                        <td>                       
+                            <p class="descricao">Pizza de Atum </p>
+                            <p class="descricao">Ingredientes: atum, cebola, cheiro verde e tomate.</p>
+                        </td>
+                        <td><a href="#pedir"><img src="https://i.pinimg.com/564x/c6/36/89/c636896b90c8f0c05fbdbdf6ac132bcb.jpg" alt="" class="imagens_pizzas"></a></td>
+                        <td>   
+                            <p class="descricao">Pizza Vegetariana</p>
+                            <p class="descricao">Ingredientes: molho de tomate, mussarela, milho verde, escarola, brócolis, ervilha, cebola, cheiro verde, orégano e azeitona.</p>
+                        </td>
+                        <td><a href="#pedir"></a><img src="https://portal-amb-imgs.clubedaana.com.br/2019/02/pizza-primavera-17681.jpg" class="imagens_pizzas"></td>
+                        <td>
+                            <p class="descricao">Pizza de Primavera</p>
+                            <p class="descricao">Ingredientes: presunto, cebola, cheiro verde, peru e catupiry</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td><!-- não usar -->
+                        <td>
+                            <div class="preco" align="center">
+                                <p>R$: 30,90</p> <!-- mudar depois -->
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                        <td></td> <!-- não usar -->
+                        <td>
+                            <div class="preco" align="center">
+                                <p>R$: 64,00</p> <!-- mudar depois -->
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                        <td></td> <!-- não usar -->
+                        <td>
+                            <div class="preco" align="center">
+                                <p>R$: 45,00</p> <!-- mudar depois -->
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#pedir"><img src="https://i.pinimg.com/564x/e9/e0/79/e9e07911ff1ba5e8f62bff51912e4622.jpg" alt="" class="imagens_pizzas"></a></td>
+                        <td>
+                            <p class="descricao">Pizza de Escarola</p>  <!-- catlombo --> <!-- MUDEI PARA PIZZA DE ESCAROLA -->
+                            <p class="descricao">Ingredientes: chicoria refogada, alho, aliche e coberta com mussarela.</p>
+                        </td>
+                        <td><a href="#pedir"><img src="https://i.pinimg.com/564x/48/7c/a4/487ca4ae50803da4e6b51b35cad7baa7.jpg" alt="" class="imagens_pizzas"></a></td>
+                        <td>
+                            <p class="descricao">Pizza Nordestina</p>
+                            <p class="descricao">Ingredientes: mussarela, carne de sol, cebola e cheiro verde.</p>
+                        </td>
+                        <td><a href="#pedir"><img src="data:image/jpeg;base64,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" alt="" class="imagens_pizzas"></a>
+                        <td>
+                            <p class="descricao">Pizza Paulista</p>
+                            <p class="descricao">Ingredientes: mussarela, tomate, palmito, ovos, ervilha,cebola e cheiro verde.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td><!-- não usar -->
+                        <td>
+                            <div class="preco" align="center">
+                                <p>R$: 45,00</p> <!-- mudar depois -->
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                        <td></td> <!-- não usar -->
+                        <td>
+                            <div class="preco" align="center">
+                                <p>R$: 56,00</p> <!-- mudar depois -->
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                        <td></td> <!-- não usar -->
+                        <td>
+                            <div class="preco" align="center">
+                                <p>R$: 66,00</p> <!-- mudar depois -->
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#pedir"><img src="https://www.mavalerio.com.br/wp-content/uploads/2018/12/160722_pizzas-002-v2-500x340.png" alt="" class="imagens_pizzas"></a></td>
+                        <td>
+                            <p class="descricao">Pizza de Brigadeiro</p>
+                            <p class="descricao">Ingredientes: leite condensado, mussarela, brigadeiro, chocolate granulado.</p>
+                        </td>
+                        <td><a href="#pedir"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQM7IpMwR6hHeYXldH8FxQffyDW3DuqHHu_Ug&usqp=CAU" alt="" class="imagens_pizzas"></a></td>
+                        <td>
+                            <p class="descricao">Pizza de Banana</p>
+                            <p class="descricao">Ingredientes: leite condensado, mussarela, banana caramelada, canela em pó.</p>
+                        </td>
+                        <td><a href="#pedir"><img src="https://media-cdn.tripadvisor.com/media/photo-s/08/85/e8/7b/simone-pizzas.jpg" alt="" class="imagens_pizzas"> </a></td> <!-- a ok class certa é "imagens_pizzas" -->
+                        <td>
+                            <p class="descricao">Pizza de Strogonoff</p>
+                            <p class="descricao">Ingredientes: filé mignon, molho de tomate, mussarela, batata palha e azeitona</p>
+                        </td>   <!-- TERMINAMOS, TUDO ESTÁ FUNCIONANDO, MAS FALTA COLOCAR AS OPÇOES DE PIZZA NO FORMULARIO -->
+                    </tr>
+                    <tr>
+                        <td></td><!-- não usar -->
+                        <td>
+                            <div class="preco" align="center">
+                                <p>R$: 33,00</p> <!-- mudar depois -->
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                        <td></td> <!-- não usar -->
+                        <td>
+                            <div class="preco" align="center">
+                                <p>R$: 44,00</p> <!-- mudar depois -->
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                        <td></td> <!-- não usar -->
+                        <td>
+                            <div class="preco" align="center">
+                                <p>R$: 78,00</p> <!-- mudar depois -->
+                            </div>
+                            <hr size="2px" width="50%">
+                        </td>
+                    </tr>
+                </table> 
+            </div>
+        </div>
+        <div class="pedido" align="center" id="pedir">
+            <form action="javascript: calcular();">
+                <fieldset id="pedido_form">
+                    <h1 id="legenda_pedido">Pedido</h1>
+                    <hr align="center" size="4px" width="50%" color="white">
+                    <table>
+                        <tr>
+                            <td><label for="Nome">Nome:</label></td>
+                            <td><input class="inputs" type="text" name="nome" id="Nome" required placeholder="Insira seu nome"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="endere">Endereço</label></td>
+                            <td><input class="inputs" type="text" name="endereço" id="endere" required placeholder="Insira seu endereço"></td>
+                        </tr>
+                        <tr>
+                            <td><select class="inputs" name="Pizza" id="pizza" required> <!-- Atualizar a lista das pizzas -->
+                                    <option value="">Selecione um sabor</option>
+                                    <option value="PIzza de mussarela">Pizza de mussarela</option>
+                                    <option value="Pizza de 4 queijo">Pizza de 4 queijos</option>
+                                    <option value="Pizza de frango e catupiry">Pizza de frango e catupiry</option>
+                                    <option value="Pizza de calabresa">Pizza de calabresa</option>
+                                    <option value="Pizza marguerita">Pizza Marguerita</option>
+                                    <option value="Pizza califórnia">Pizza Califórnia</option>
+                                    <option value="Pizza de atum">Pizza Atum</option>
+                                    <option value="Pizza primavera">Pizza Primavera</option>
+                                    <option value="Pizza vegetariana">Pizza Vegetariana </option>
+                                    <option value="Pizza de escarola">Pizza Escarola </option>
+                                    <option value="Pizza nordestina">Pizza Nordestina </option>
+                                    <option value="Pizza paulista">Pizza Paulista</option>
+                                    <option value="Pizza de brigadeiro">Pizza de brigadeiro </option>
+                                    <option value="Pizza de banana">Pizza de banana</option>
+                                    <option value="Pizza de strogonoff">Pizza de strogonoff</option> 
+                                   <!-- 
+                                       ideias pra adicionar:
+                                                javascript() vou arrumar os preços e ja mando print
+                                                deixar disponivel pedir mais de 1 pizza e de diferentes sabores ()
+                                                colocar mais opcoes de bebida
+                                                talvez criar uma página de entrada (da para fazer)
+                                                Ao lado de bebidas, colocar qtde
+                                    -->
+                                </select></td>
+                            <td><input type="radio" name="borda" id="com_borda" required value="com borda" onclick="anotar(this.value)">
+                                <label
+                                    for="com_borda">Com borda</label>
+                                <input type="radio" name="borda" id="sem_borda" value="sem borda" onclick="anotar(this.value)"><label
+                                    for="sem_borda">Sem borda</label> </td>
+                        </tr>
+                        <tr>
+                            <td><label for="tamanho_pizza">Escolha o tamanho da pizza: </label></td>
+                            <td><select class="inputs" required name="tamanho_pizza" id="tamanho_pizza">
+                                    <option value="Normal">Normal</option>
+                                    <option value="Grande">Grande</option>
+                                </select></td>
+                        </tr>
+
+                        <tr>
+                            <td>Acompanhamentos: </td> <!-- Adicionar mais  -->
+                            <td><input class="inputs" type="checkbox" name="acompanhamentos" id="batata_frita"
+                                    value="batata_frita"><label for="batata_frita">Batata frita</label>
+                                <input class="inputs" type="checkbox" name="acompanhamentos" id="extra_bacon"
+                                    value="Extra Bacon"><label for="extra_bacon">Extra bacon</label>
+                                <input type="checkbox" name="acompanhamentos" id="extra_queijo"><label for="extra_queijo">Extra queijo</label>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td><label for="bebidas">Bebidas</label></td> <!-- Adicionar mais coisas -->
+                            <td><select class="inputs" name="bebidas" id="bebidas">
+                                    <option value="">Nenhuma</option>
+                                    <option value="coca cola">Coca Cola</option>
+                                    <option value="pepsi">Pepsi</option>
+                                    <option value="guarana antartica">Guarana Antartica</option>
+                                </select></td>
+                        </tr>
+                    </table>
+                    <div class="enviar" align="center">
+                        <input class="inputs" type="submit" value="Realizar pedido" id="enviar">
+                        <input class="inputs" type="reset" value="Limpar pedido" id="enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="contato">
+        <h1 align="center" id="contato">Contatos</h1>
+        <div class="pessoas" align="center">
+
+            <ul class="lista_contato">
+                <li>
+                    <p>Leandro Poletti de Oliveira</p>
+                    <p><a class="email" href="mailto:leandro.oliveira372@etec.sp.gov.br">leandro.oliveira372@etec.sp.gov.br</a></p>
+                    <p>Telefone: +55 14 98177-6625</p>
+                    <hr size="5px" width="80%" color="orange">
+                </li>
+                <li>
+                    <p>Júlio Hiroshi Yuuki</p>
+                    <p><a class="email" href="mailto:julio.yuuki@etec.sp.gov.br">julio.yuuki@etec.sp.gov</a></p>
+                    <p>Telefone: +55 14 99837-1661</p>
+                    <hr size="5px" width="80%" color="orange">
+                </li>
+                <li>
+                    <p>Renan Solano de Souza</p>
+                    <p><a class="email" href="mailto:renan.souza175@etec.sp.gov.br">renan.souza175@etec.sp.gov.br</a></p>
+                    <p>Telefone: +55 14 99800-7749</p>
+                    <hr size="5px" width="80%" color="orange">
+                </li>
+
+            </ul> 
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="pizzaria.js"></script>
+</body>
+</html>
