@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: grid;
+    grid-template-areas: "nav conteudo conteudo";
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+}
+.navbar{
+    grid-area: nav;
+    background-color: rgb(146, 67, 14);
+    height: 100%;
+    border-radius: 7px;
+}
+#img_perfil{
+    border: 5px solid #c99f15;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.perfil{
+    margin-top: 30px;
+}
+.cont{
+    grid-area: conteudo;
+}
+.guias ul{
+    list-style-type: none;
+    
+}
+.guias a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.guias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+.guias li{
+    text-align: center;
+    margin-top: 7px;
+}
