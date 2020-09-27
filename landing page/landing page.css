@@ -42,8 +42,17 @@ body{
     margin-left: 22.72%;
     background-color: #8d4a0b;
 }
-.apresentação{
+.apresentação, .conteudo_apre{
     padding-top: 20px;
     background-color: #aa590d;
     border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+.apresentação p{
+    margin-top: 40px;
+    margin-left: 10px;
+    padding-bottom: 15px;
 }
