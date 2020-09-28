@@ -63,7 +63,7 @@ body{
     display: flex;
 
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
 }
 .gostos img{
     border-radius: 10px;
