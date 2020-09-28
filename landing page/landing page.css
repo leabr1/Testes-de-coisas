@@ -56,3 +56,27 @@ body{
     margin-left: 10px;
     padding-bottom: 15px;
 }
+.intervalo{
+    margin-top: 100px;
+}
+.lista_perfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.gostos img{
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.gostos_cont{
+    display: grid;
+    grid-template-areas: "anime vocaloid manga" "jogos programacao youtube";
+    grid-template-columns: 33% 33% 33%;
+}
+.img1{
+    grid-area: anime;
+}
+.img2{
+    grid-area: vocaloid;
+}
