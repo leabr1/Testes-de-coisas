@@ -21,6 +21,7 @@ html{
     height: 300px;
     width: 300px;
     margin-bottom: 10px;
+
 }
 .img_perfil{
     margin-top: 20px;
@@ -44,6 +45,7 @@ html{
 .cont{
     margin-left: 22.72%;
     background-color: #8d4a0b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .apresentação, .conteudo_apre{
     padding-top: 20px;
@@ -105,4 +107,25 @@ html{
 .guias a:hover{
     background-color: #7e550b;
     transition: 0.9s;
+}
+#lista_projetos{
+    list-style-type: square;
+    margin-left: 2%;
+}
+#lista_projetos li a{
+    text-decoration: none;
+
+}
+#lista_projetos li{
+    margin-top: 10px;
+}
+.lista_contato a{
+    text-decoration: none;
+}
+.lista_contato{
+    list-style-type: square;
+    margin-left: 3%;
+}
+.lista_contato li{
+    margin-top: 10px;
 }
