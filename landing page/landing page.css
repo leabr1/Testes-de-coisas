@@ -122,10 +122,13 @@ html{
 .lista_contato a{
     text-decoration: none;
 }
-.lista_contato{
-    list-style-type: square;
-    margin-left: 3%;
+i{
+    border: 5px solid #612a06;
+    border-radius: 50%;
+    background-color: #612a06;
 }
-.lista_contato li{
-    margin-top: 10px;
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
