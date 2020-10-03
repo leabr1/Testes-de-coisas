@@ -6,7 +6,7 @@
     color: whitesmoke;
 }
 body{
-    background-image: url(towe\ of\ god-\ prêmio-crunchyroll.png);
+    background-image: linear-gradient(150deg, #15dffa 0, #1522d8 70%);
 }
 .navegacao h1{
     font-style: italic;
@@ -93,8 +93,9 @@ body{
     height: 300px;
     overflow: hidden;
 }
-.teste{
+#teste{
     display: inline-flex;
+    flex-direction: row;
 }
 .cont{
     width: 500px;
@@ -116,4 +117,22 @@ body{
     height: 80px;
     width: 10px;
     cursor: pointer;
+}
+#active{
+    width: 5px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: aqua;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+}
+#teste{
+    transition: 0.5s;
+}
+.cont a{
+    border-radius: 10px;
+    background-image: linear-gradient(150deg, #1ee717 0, #da4a07 70%);
+    font-size: 20px;
 }
