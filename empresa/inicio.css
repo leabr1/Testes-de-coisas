@@ -7,7 +7,6 @@
 }
 body{
     background-image: url(towe\ of\ god-\ prêmio-crunchyroll.png);
-    height: 100%;
 }
 .navegacao h1{
     font-style: italic;
@@ -41,6 +40,8 @@ body{
     margin-bottom: 0px;
     margin-top: 0px;
     border-radius: 50%;
+    position: relative;
+    cursor: pointer;
 }
 .logo{
     display: flex;
@@ -51,12 +52,68 @@ body{
     background-color:  #0a296da9;
     transition: 0.5s;
 }
+
 .sidebar{
-    width: 150px;
+    width: 173px;
     background-color: #081738a9;
     height: 100%;
-    position: absolute;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.links{
+    margin-left: 0px;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    padding-bottom: 246px;
+}
+.links li{
+    margin-top: 15px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.links li i{
+    padding-top: 2px;
+}
+.links li:hover{
+    background-color: #030916a9;
+    transition: 0.5s;
+}
+.content{
+    display: flex;
+}
+.coisa{
+    position: relative;
+    margin-top: 20%;
+    margin-left: 8%;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+.teste{
+    display: inline-flex;
+}
+.cont{
+    width: 500px;
+}
+.cont h1{
+    margin-bottom: 5px;
+}
+.escolha{
+    height: 320px;
+    width: 1px;
+    background-color: gray;
+    position: absolute;
+    display: block;
+    top: 55%;
+    right: 50px;
+    transform: translateY(-50%);
+}
+#l1,#l2,#l3,#l4{
+    height: 80px;
+    width: 10px;
+    cursor: pointer;
 }
