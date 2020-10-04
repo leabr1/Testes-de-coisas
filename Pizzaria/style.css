@@ -149,7 +149,7 @@ form{
 }
 .slider{
     display: inline-flex;
-   
+   flex-direction: row;
 }
 .cont{
     width: 600px;
