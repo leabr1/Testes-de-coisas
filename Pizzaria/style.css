@@ -26,10 +26,10 @@ li{
     text-decoration: none;
     color: white;
     border-radius: 10px;
+        transition: 0.9s;
 }
 .coisas a:hover{
     background-color: rgb(168, 37, 48);
-    transition: 0.9s;
 }
 #pedido_form{
     border-radius: 10px;
