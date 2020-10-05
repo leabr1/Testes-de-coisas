@@ -150,6 +150,7 @@ form{
 .slider{
     display: inline-flex;
    flex-direction: row;
+   transition: 0.5s;
 }
 .cont{
     width: 600px;
@@ -158,26 +159,29 @@ form{
 }
 .guia{
     height: 3px;
-    width: 350px;
-    background-color: #9197f0;
+    width: 291.64px;
+    background-color: slategray;
     transform: translateX(35%);
     display: inline-flex;
     flex-direction: row; 
+    border-radius: 50px;
 }
-.active{
+#active{
     background-color: white;
-    width: 70px;
+    width: 58.33px;
     height: 5px;
     border-radius: 10px;
-    transform: translateX(-300px);
+    transform: translateX(-190px);
+    transition: 0.5s;
 }
-.p1,.p2,.p3,.p4,.p5{
-    width: 70px;
+#p1,#p2,#p3,#p4,#p5{
+    width: 58.33px;
     height: 3px;
     cursor: pointer;
 }
 .encaixe{
     transform: translateY(-20px);
+    width: 420px;
 }
 .img_slider img{
     height: 200px;
