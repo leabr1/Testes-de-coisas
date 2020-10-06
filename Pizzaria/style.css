@@ -1,9 +1,12 @@
 html{
     scroll-behavior: smooth;
 }
+:root{
+    --gradiente: linear-gradient(130deg,#ff9259 0,#ff2426 70%);
+}
 .navbar{
     flex-direction: row;
-    background-image: linear-gradient(130deg,#ff9259 0,#ff2426 70%);
+    background-image: var(--gradiente);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -34,7 +37,7 @@ li{
 #pedido_form{
     border-radius: 10px;
     border-color: red;
-    background-image: linear-gradient(130deg,#ff9259 0,#ff2426 70%);
+    background-image: var(--gradiente);
     color: whitesmoke;
 }
 form{
@@ -51,7 +54,7 @@ form{
     margin-bottom: 10px;
 }
 .preco{
-    background-image: linear-gradient(130deg,#ff9259 0,#ff2426 70%);
+    background-image: var(--gradiente);
     border-radius: 10px;
     color: whitesmoke;
     text-align: center;
@@ -73,7 +76,7 @@ form{
     transition: 0.9s;
 }
 .contato{
-    background-image: linear-gradient(130deg,#ff9259 0,#ff2426 70%); 
+    background-image: var(--gradiente); 
     border-radius: 10px;
     color: white;
 }
@@ -127,7 +130,7 @@ form{
 }
 .novidades{
     color: slategrey;
-    border: 2px solid red;
+    border: 5px solid red;
     border-radius: 10px;
     margin-top: 50px;
     width: 50%;
@@ -145,7 +148,6 @@ form{
     border: 5px solid red;
     transform: translateX(60%);
     overflow: hidden;
-    
 }
 .slider{
     display: inline-flex;
@@ -209,7 +211,7 @@ form{
 }
 .preco_slider{
     grid-area: preco;
-    background-image: linear-gradient(130deg,#ff9259 0,#ff2426 70%);
+    background-image: var(--gradiente);
     border-radius: 50px;
     text-align: center;
     margin-right: 30px;
@@ -225,7 +227,7 @@ form{
 }
 .comprar_slider, .more_info{
     margin-top: 10px;
-    background-image: linear-gradient(130deg,#ff9259 0,#ff2426 70%);
+    background-image: var(--gradiente);
     border-radius: 50px;
     text-align: center;
 }
