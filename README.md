@@ -2,4 +2,6 @@
 ----------
 Bem vindo ao meu repositório de testes, aqui testo diversos tipos de coisas
 - Posso colocar qualquer coisa no nesse reposiório
-- Mais coisas para adicionar depois
+- Testo ideias
+- Coloco alguns projetos
+- Adicionar mais coisas no futuro
