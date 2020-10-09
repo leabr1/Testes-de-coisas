@@ -59,11 +59,11 @@
     overflow: scroll;
     background-color: #998585;
     margin-left: 1.5%;
-    box-shadow: 0px 10px 50px 5px black;
     transition: 1.5s ease-in-out;
 }
 .guias:hover{
     transform: scale(1,1.2);
+    box-shadow: 0px 10px 50px 5px black;
 }
 .guia_cont img{
     height: 200px;
@@ -77,41 +77,70 @@
 .guia_cont{
     margin-right: 10px;
 }
-.demon_slayer{
+.img_cont{
     transition: 1.5s ease-in-out;
+    border-radius: 10px;
 }
-.demon_slayer:hover{
+.img_cont:hover{
     transform: scale(1,1.25);
+    box-shadow: 2px 5px 30px 3px rgba(53, 50, 53, 0.781);
 }
-@media only screen and (max-width: 700px){
-    *{
-        margin: 0,0,0,0;
-        display: grid;
+.lista_produtos{
+    margin-top: 10px;
+    display: grid;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-auto-rows: 300px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /*
+    O grid templete columns esta repetindo quantas vezes necessárias para se encaixar definindo a largura das colunas, falando que elas devem ter
+    no minimo 300px e no máximo 1fr (o  espaço maximo disponivel)
+    */
+}
+.produtos_cont{
+    background-color: rgba(214, 184, 184, 0.747);
+}
+.produtos{
+    margin-top: 20px;
+}
+.produtos_cont img{
+    height: 200px;
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 18%;
+    border-radius: 10px;
+}
+.desc, .produtos_cont h3{
+    text-align: center;
+}
+.desc a{
+    text-decoration: none;
+    background-image: linear-gradient(150deg, #467c49 0, #bccf09 70%);
+    border-radius: 10px;
+    color: rgb(45, 16, 114);
+    font-size: 20px;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+.desc a:hover{
+    color: pink;
+}
+@media only screen and (max-width: 550px){
+    .nav,.img_logo{
+        flex-direction: column;
     }
-    body{
-        width: 100%;
+    .logo_pesquisa{
+        margin-top: 10px;
     }
-    #search_bar{
-        margin-left: auto;
-        width: 50px;
+    .lista_links{
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
-    .nav{
-        width: 100%;
+    .lista_links li{
+        margin-left: 20px;
     }
-    .img_logo{
-        font-size: 5px;
-    }
-    .img_logo img{
-        width: 10px;
-        height: 10px;
-    }
-    .inicio{
-        height: 220px;
-    }
-    .img_logo, .links, .lista_links{
-        width: auto;
-    }
-    .lista_links li a{
-        font-size: 5px;
+    .produtos_cont img{
+        margin-left: 30%;
     }
 }
