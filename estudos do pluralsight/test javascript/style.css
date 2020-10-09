@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav, .img_logo, .links, .lista_links{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav{
+    width: 100%;
+    justify-content: space-between;
+    background-color: #7c7474;
+}
+.img_logo img{
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+}
+.lista_links li, .lista_links a, .lista_links ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: yellow;
+}
+#search_bar{
+    margin-left: 20px;
+    height: 30px;
+    width: 300px;
+    border-color: #7c7474;
+    border-radius: 10px;
+}
+.lista_links{
+    margin-right: 50px;
+    font-size: 20px;
+}
+.lista_links li{
+    margin-left: 30px;
+    transition: 0.7s;
+    border-radius: 10px;
+
+}
+.lista_links li:hover{
+    background-color: #423838;
+}
+.inicio{
+    text-align: center;
+    height: 230px;
+    width: 70%;
+    transform: translateX(22%);
+    margin: 0 0 0 0;
+    padding:  0 0 0 0;
+    background-size: 100%;
+    background-image: url(Captura\ de\ tela\ 2020-10-08\ 140427.png);
+}
+.guias{
+    margin-top: 10px;
+    width: 97%;
+    height: 300px;
+    overflow: scroll;
+    background-color: #998585;
+    margin-left: 1.5%;
+    box-shadow: 0px 10px 50px 5px black;
+    transition: 1.5s ease-in-out;
+}
+.guias:hover{
+    transform: scale(1,1.2);
+}
+.guia_cont img{
+    height: 200px;
+    width: 200px;
+}
+.lista_cont{
+    padding-left: 10px;
+    margin-top: 10px;
+    display: inline-flex;
+}
+.guia_cont{
+    margin-right: 10px;
+}
+.demon_slayer{
+    transition: 1.5s ease-in-out;
+}
+.demon_slayer:hover{
+    transform: scale(1,1.25);
+}
+@media only screen and (max-width: 700px){
+    *{
+        margin: 0,0,0,0;
+        display: grid;
+    }
+    body{
+        width: 100%;
+    }
+    #search_bar{
+        margin-left: auto;
+        width: 50px;
+    }
+    .nav{
+        width: 100%;
+    }
+    .img_logo{
+        font-size: 5px;
+    }
+    .img_logo img{
+        width: 10px;
+        height: 10px;
+    }
+    .inicio{
+        height: 220px;
+    }
+    .img_logo, .links, .lista_links{
+        width: auto;
+    }
+    .lista_links li a{
+        font-size: 5px;
+    }
+}
