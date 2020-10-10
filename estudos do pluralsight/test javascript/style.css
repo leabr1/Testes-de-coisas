@@ -126,9 +126,16 @@
 .desc a:hover{
     color: pink;
 }
+.seemore_button{
+    margin-top: 10px;
+}
 @media only screen and (max-width: 550px){
     .nav,.img_logo{
         flex-direction: column;
+    }
+    .inicio{
+        background-repeat: repeat-x;
+        color: yellowgreen;
     }
     .logo_pesquisa{
         margin-top: 10px;
