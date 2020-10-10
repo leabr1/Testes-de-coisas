@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --cor_de_fundo: #7c7474;
+}
 .nav, .img_logo, .links, .lista_links{
     display: inline-flex;
     flex-direction: row;
@@ -10,7 +13,7 @@
 .nav{
     width: 100%;
     justify-content: space-between;
-    background-color: #7c7474;
+    background-color: var(--cor_de_fundo);
 }
 .img_logo img{
     width: 70px;
@@ -26,7 +29,7 @@
     margin-left: 20px;
     height: 30px;
     width: 300px;
-    border-color: #7c7474;
+    border-color:var(--cor_de_fundo);
     border-radius: 10px;
 }
 .lista_links{
@@ -50,7 +53,7 @@
     margin: 0 0 0 0;
     padding:  0 0 0 0;
     background-size: 100%;
-    background-image: url(Captura\ de\ tela\ 2020-10-08\ 140427.png);
+    background-image: url(https://i.pinimg.com/564x/e5/e6/86/e5e6868627617ed14691b956cfc76c59.jpg);
 }
 .guias{
     margin-top: 10px;
@@ -129,7 +132,31 @@
 .seemore_button{
     margin-top: 10px;
 }
-@media only screen and (max-width: 550px){
+.contatos{
+    background-color: var(--cor_de_fundo);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+.links_contatos {
+    font-size: 200%;    
+    color: #644b07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.links_contatos i{
+    margin-left: 10px;
+}
+.links_contatos a{
+    color: inherit;
+    transition: 0.5s;
+}
+.links_contatos a:hover{
+    color: #1b1502;
+}
+@media only screen and (max-width: 838px){
     .nav,.img_logo{
         flex-direction: column;
     }
