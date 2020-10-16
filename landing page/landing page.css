@@ -133,3 +133,9 @@ i{
     justify-content: space-around;
     align-items: center;
 }
+#conquistas ul{
+    margin-left: 20px;
+}
+#conquisatas-lista{
+    list-style-type: square;
+}
