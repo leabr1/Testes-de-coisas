@@ -66,6 +66,7 @@ nav{
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     grid-row: 500px;
     gap: 15px;
+    padding-bottom: 30px;
 }
 .img-carro img{
     margin-top: 30px;
@@ -101,4 +102,19 @@ nav{
 }
 .marcadores li:hover{
     background-color: #0f0e0e;
+}
+#sobre{
+    background-image: url(https://i.pinimg.com/564x/73/a9/a4/73a9a4fed48304c2a4e6421957790e9d.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+.textos{padding-top: 50px;}
+.texto_sobre{
+    margin-top: 50px;
+    color: black;
+    width: 450px;
+    margin-left: 50px;
+    background-color: #ffffff8c;
+    border-radius: 10px;
 }
