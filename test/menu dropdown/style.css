@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 100px;
+}
+nav{
+    background-color: #47a113;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav .teste:hover .guiaItem{
+    background-color: #31700d;
+    cursor: pointer;
+}
+nav .teste:hover{
+    cursor: pointer;
+}
+.items{
+    display: none;
+}
+nav .teste:hover .items {
+    display: block;
+    position: absolute;
+    background-color: red;
+    top: 100px;
+}
+nav .teste:hover .items ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+}
+.items{
+    cursor: default;
+}
+
+.items li{
+    border-bottom: 1px solid white; 
+    border-radius: 0px;
+    padding: 0;
+    cursor: pointer;
+}
+.teste{
+    padding: 20px;
+}

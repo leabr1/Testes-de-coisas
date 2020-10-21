@@ -10,7 +10,7 @@ html,body{
     --nav-background: #0f0e0ec4;
     --nav-color: #dfd7d7;
 }
-nav,.logo,.marcadores ul{
+nav,.logo, .marcadores ul{
     display: flex;
     align-items: center;
 }
@@ -23,16 +23,20 @@ nav{
 .logo, .marcadores a{
     color: var(--nav-color);
 }
+.marcadores a{
+    text-decoration: none;
+}
 .marcadores ul{
     list-style-type: none;
 }
 .marcadores a{
-    text-decoration: none;
-}
-.marcadores li{
     margin-left: 80px;
     border-radius: 10px;
     transition: 0.9s;
+}
+.marcadores{
+    display: flex;
+    align-items: center;
 }
 .logo i{
     margin-right: 70px;
@@ -100,7 +104,7 @@ nav{
 .butao a:hover{
     color: blue;
 }
-.marcadores li:hover{
+.marcadores a:hover{
     background-color: #0f0e0e;
 }
 #sobre{
@@ -109,12 +113,4 @@ nav{
     height: 300px;
     background-position: center;
 }
-.textos{padding-top: 50px;}
-.texto_sobre{
-    margin-top: 50px;
-    color: black;
-    width: 450px;
-    margin-left: 50px;
-    background-color: #ffffff8c;
-    border-radius: 10px;
-}
+
