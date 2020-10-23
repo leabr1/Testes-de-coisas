@@ -7,7 +7,7 @@ nav{
     position: fixed;
     background-color: #3f3636;
     height: 100%;
-    transition: 0.9s;
+    transition: 0.2s;
 }
 nav ul{
     display: flex;
@@ -24,7 +24,7 @@ nav ul li a{
     display: flex;
     flex-direction: row;
    align-items: center;
-   transition: 0.5s ease;
+   transition: 0.3s ease;
    margin-top: 10px;
 }
 nav ul li:last-child{
@@ -51,6 +51,11 @@ nav li:hover{
     position: absolute;
 }
 .corpo{
-    position: absolute;
-    background-color: turquoise;
+    margin-left: 70px;
+}
+.alterar{
+    transition: transform 0.3s ease;
+}
+nav:hover .alterar{
+    transform: rotate(180deg);
 }
