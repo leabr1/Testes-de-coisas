@@ -34,12 +34,7 @@ li{
 .coisas a:hover{
     background-color: rgb(168, 37, 48);
 }
-#pedido_form{
-    border-radius: 10px;
-    border-color: red;
-    background-image: var(--gradiente);
-    color: whitesmoke;
-}
+
 form{
     width: 40%;
 
@@ -64,17 +59,8 @@ form{
     height: 175px;
     width: 190px;
 }
-.inputs{
-    border-radius: 10px;
-    border-color: red;
-}
-.enviar{
-    margin-top: 10px;
-}
-#enviar:hover{
-    background-color: rgb(255, 106, 25);
-    transition: 0.9s;
-}
+
+
 .contato{
     background-image: var(--gradiente); 
     border-radius: 10px;
@@ -234,4 +220,97 @@ form{
 .comprar_slider a, .more_info a{
     color: white;
     text-decoration: none;
+}
+#pedir{
+    background-image: var(--gradiente);
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    border-color: unset;
+    border-style: unset;
+    transition: 0.5s ease;
+}
+#formulario_pedido{
+    width: 700px;
+    position: fixed;
+    display: none;
+    height: 530px;
+    background-color: whitesmoke;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 20px;
+    border: 3px solid red;
+    filter: blur(0);
+}
+#tudo{
+    transition: 0.5s linear;
+    background-image: url(background.png);
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+i.fa-shopping-bag{
+    margin-bottom: 10px;
+}
+#pedir:hover{
+    color: #c57b0c;
+}
+.content h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.listaPizzas{
+    width: 300px;
+    border-radius: 20px;
+    border: 3px solid red;
+    height: 400px;
+    display: grid;
+    gap: 3px;
+    grid-auto-rows: 233.3333px;
+    grid-template-columns: 144px;
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+}
+.pedirForm form{
+    margin-top: 10px;
+    display: flex;
+    width: 700px;
+    margin-left: 10px;
+}
+.clienteInfo{
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 3px solid red;
+    width: 300px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+.clienteInfo table{
+    width: 300px;
+}
+.imgForm img{
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+.imgForm{
+    margin: auto;
+}
+.conteudoPedido{
+    text-align: center;
 }
