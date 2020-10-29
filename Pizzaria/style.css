@@ -272,16 +272,19 @@ i.fa-shopping-bag{
     justify-content: space-between;
 }
 .listaPizzas{
-    width: 300px;
+    width: 400px;
     border-radius: 20px;
     border: 3px solid red;
     height: 400px;
     display: grid;
     gap: 3px;
     grid-auto-rows: 233.3333px;
-    grid-template-columns: 144px;
+    grid-template-columns: repeat(auto-fit, minmax(144px, 1fr));
+    /*Esta falando para repetir quantas vezes for necessário para se encaixar com um minimo de 144px
+    e com um máximo de todo o espaço disponível na linha (é responsivo desse jeito, então se diminuir o tamanho vai se adaptar)*/
     overflow: scroll;
     margin: 0;
+    overflow-x: hidden;
     padding: 0;
 }
 .pedirForm form{
@@ -291,14 +294,14 @@ i.fa-shopping-bag{
     margin-left: 10px;
 }
 .clienteInfo{
-    margin-left: 50px;
+    margin-left: 30px;
     border-radius: 20px;
     border: 3px solid red;
     width: 300px;
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 0;
+    margin-right: 30px;
 }
 .clienteInfo table{
     width: 300px;
@@ -306,7 +309,7 @@ i.fa-shopping-bag{
 .imgForm img{
     border-radius: 20px;
     height: 150px;
-    width: 150px;
+    width: 144px;
 }
 .imgForm{
     margin: auto;
