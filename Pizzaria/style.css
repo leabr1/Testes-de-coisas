@@ -287,7 +287,7 @@ i.fa-shopping-bag{
     overflow-x: hidden;
     padding: 0;
 }
-.pedirForm form{
+.pedirForm form .formulario_content{
     margin-top: 10px;
     display: flex;
     width: 700px;
@@ -316,4 +316,47 @@ i.fa-shopping-bag{
 }
 .conteudoPedido{
     text-align: center;
+}
+.submit{
+    display: flex;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.submit input{
+    border-radius: 20px;
+    background-image: var(--gradiente);
+    border-style: unset;
+    margin-left: 5px;
+    width: 120px;
+    height: 30px;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.submit input:hover{
+    color: yellow;
+}
+form table input, form table select{
+    border-radius: 20px;
+    border: 3px groove black;
+}
+.confirmarPedido{
+    display: none;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid red;
+    position: fixed;
+    margin: auto;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+    height: 400px;
+}   
+#formulario_pedido{
+    z-index: 1;
 }

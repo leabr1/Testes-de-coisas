@@ -1,10 +1,10 @@
-var slider = document.getElementById('slider')
-var active = document.getElementById('active')
-var line1 = document.getElementById('p1')
-var line2 = document.getElementById('p2')
-var line3 = document.getElementById('p3')
-var line4 = document.getElementById('p4')
-var line5 = document.getElementById('p5')
+let slider = document.getElementById('slider')
+let active = document.getElementById('active')
+let line1 = document.getElementById('p1')
+let line2 = document.getElementById('p2')
+let line3 = document.getElementById('p3')
+let line4 = document.getElementById('p4')
+let line5 = document.getElementById('p5')
 
 line1.onclick = function(){
     slider.style.transform = 'translateX(0)'
