@@ -1,6 +1,11 @@
 html{
     scroll-behavior: smooth;
 }
+hr{
+    background-color: #777474;
+    border: 0px;
+    height: 3px;
+}
 :root{
     --gradiente: linear-gradient(130deg,#ff9259 0,#ff2426 70%);
 }
@@ -10,7 +15,17 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-radius: 10px;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+.corpo{
+    padding-top: 70px;
 }
 .coisas{
     display: flex;
@@ -20,18 +35,24 @@ html{
 }
 li{
     padding-left: 10px;
+    
 }
 .logo{
     justify-content: left;
     color: white;
 }
-.coisas a{  
+.coisas a, .coisas h2{  
     text-decoration: none;
     color: white;
-    border-radius: 10px;
-        transition: 0.9s;
 }
-.coisas a:hover{
+#comprarButton{
+    margin-left: 50px;
+}
+.coisas h2{
+    border-radius: 10px;
+    transition: 0.9s;
+}
+.coisas h2:hover{
     background-color: rgb(168, 37, 48);
 }
 
@@ -67,7 +88,9 @@ form{
     color: white;
 }
 
-
+.contato hr{
+    background-color: #e7c426;
+}
 .pessoas{
     display: flex;
     flex-direction: row;

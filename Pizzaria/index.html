@@ -17,11 +17,12 @@
             <h1>Pizzaria Etec Antônio Devisate</h1>
         </div> <!-- la pra linha 400/500 to colocando as coisas do formulario -->
         <ul class="coisas">
+            
             <li>
                 <h2><a href="#pizzas">Sabores</a></h2>
             </li>
-            <li>
-                <h2 class="navegadores"><a href="#pedir">Pedido</a></h2>
+            <li id="comprarButton">
+                <h2 onclick="pop_up()">Realizar Pedido <i class="fas fa-shopping-bag"></i></h2>
             </li>
             <li>
                 <h2 class="navegadores"><a href="#contato">Contatos</a></h2>
@@ -67,7 +68,7 @@
                                     <a href="#california">Mais informações</a>
                                 </div>
                                 <div class="comprar_slider">
-                                    <a href="#pedir">Comprar</a>
+                                    <a onclick="pop_up()">Comprar</a>
                                 </div>
                             </div>
                             <hr width="90%" color="slategray" size="3px" style="border-radius: 20%;">
@@ -101,7 +102,7 @@
                                     <a href="#california">Mais informações</a>
                                 </div>
                                 <div class="comprar_slider">
-                                    <a href="#pedir">Comprar</a>
+                                    <a onclick="pop_up()">Comprar</a>
                                 </div>
                             </div>
                             <hr width="90%" color="slategray" size="3px" style="border-radius: 20%;">
@@ -132,7 +133,7 @@
                                         <a href="#california">Mais informações</a>
                                     </div>
                                     <div class="comprar_slider">
-                                        <a href="#pedir">Comprar</a>
+                                        <a onclick="pop_up()">Comprar</a>
                                     </div>
                                 </div>
                                 <hr width="90%" color="slategray" size="3px" style="border-radius: 20%;">
@@ -163,7 +164,7 @@
                                             <a href="#california">Mais informações</a>
                                         </div>
                                         <div class="comprar_slider">
-                                            <a href="#pedir">Comprar</a>
+                                            <a onclick="pop_up()">Comprar</a>
                                         </div>
                                     </div>
                                     <hr width="90%" color="slategray" size="3px" style="border-radius: 20%;">
@@ -194,7 +195,7 @@
                                                 <a href="#california">Mais informações</a>
                                             </div>
                                             <div class="comprar_slider">
-                                                <a href="#pedir">Comprar</a>
+                                                <a onclick="pop_up()">Comprar</a>
                                             </div>
                                             
                                         </div>
@@ -437,9 +438,6 @@
                 </table> 
             </div>
         </div>
-        <div class="div_pedir" align="center">
-            <button id="pedir" onclick="pop_up()"><h2>Realizar Pedido</h2><i class="fas fa-shopping-bag fa-3x"></i></button>
-        </div>
     </div>
     <div class="contato">
         <h1 align="center" id="contato">Contatos</h1>
@@ -454,7 +452,7 @@
                 </li>
                 <li>
                     <p>Júlio Hiroshi Yuuki</p>
-                    <p><a class="email" href="mailto:julio.yuuki@etec.sp.gov.br">julio.yuuki@etec.sp.gov</a></p>
+                    <p><a class="email" href="mailto:julio.yuuki@etec.sp.gov.br">julio.yuuki@etec.sp.gov.br</a></p>
                     <p>Telefone: +55 14 99837-1661</p>
                     <hr size="5px" width="80%" color="orange">
                 </li>
@@ -676,9 +674,9 @@
                     <td><label for="bebidas">Bebidas</label></td> <!-- Adicionar mais coisas -->
                     <td><select class="inputs" name="bebidas" id="bebidas">
                             <option value="0">Nenhuma</option>
-                            <option value="5">Coca Cola</option>
-                            <option value="4.50">Pepsi</option>
-                            <option value="4.25">Guarana Antartica</option>
+                            <option value="Coca Cola">Coca Cola</option>
+                            <option value="Pepsi">Pepsi</option>
+                            <option value="Guarana">Guarana Antartica</option>
                         </select></td>
                 </tr>
                 <tr>

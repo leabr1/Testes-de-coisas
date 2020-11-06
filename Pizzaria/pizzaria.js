@@ -12,7 +12,7 @@ function calcular(){
     let batataFrita = document.getElementById("batata_frita").checked;
     let extraBacon = document.getElementById("extra_bacon").checked;
     let extraQueijo = document.getElementById("extra_queijo").checked;
-    let bebida = parseFloat(document.getElementById("bebidas").value);
+    let bebida = document.getElementById("bebidas").value;
     let bebidasQuant = parseFloat(document.getElementById("bebidasQuant").value);
     let tamanhoBebidas = parseFloat(document.getElementById("tamanhoBebidas").value);
 
@@ -60,12 +60,24 @@ function calcular(){
 
     preco += precoPizzas;
 
-    preco += (bebida + tamanhoBebidas) * bebidasQuant;
 
-    let precoBebidas = (bebida + tamanhoBebidas) * bebidasQuant;
+    let bebidaPrecoVar = 0;
+
+    if (bebida == "Coca Cola") {
+        bebidaPrecoVar = 5;
+    }
+    if (bebida == "Pepsi") {
+        bebidaPrecoVar = 3;
+    }
+    if (bebida == "Guarana") {
+        bebidaPrecoVar = 4.5;
+    }
+    preco += (bebidaPrecoVar + tamanhoBebidas) * bebidasQuant;
+
+    let precoBebidas = (bebidaPrecoVar + tamanhoBebidas) * bebidasQuant;
 
     console.log(testeP,nomePizza,precoPizzas,PizzaSelecionada, preco, bebidasQuant, precoBebidas);
 
     confirmar.style.display = "block";
-    textoConfirmacao.textContent = `Seu pedido foi pizza${PizzaSelecionada}, com ${bebidasQuant} bebidas, sendo o total R$ ${preco}. O pedido sera enviado para ${endereco}`;
+    textoConfirmacao.textContent = `Seu pedido foi pizza${PizzaSelecionada}, com ${bebidasQuant} ${bebida}s, sendo o total R$ ${preco}. O pedido sera enviado para ${endereco}`;
 }
