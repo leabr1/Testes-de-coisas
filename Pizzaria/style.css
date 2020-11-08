@@ -9,6 +9,12 @@ hr{
 :root{
     --gradiente: linear-gradient(130deg,#ff9259 0,#ff2426 70%);
 }
+*{
+    font-family: 'Merriweather', serif;
+}
+.nome_pizza h3{
+    font-size: 30px;
+}
 .navbar{
     flex-direction: row;
     background-image: var(--gradiente);
